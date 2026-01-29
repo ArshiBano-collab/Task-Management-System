@@ -8,7 +8,7 @@ Input:
 2
 
 Expected:
-Task list seems to be empty.
+task list seems to be empty.
 
 
 

@@ -43,7 +43,7 @@ void addTask(vector<Task>& tasks) {
 
 void showAllTasks(const vector<Task>& tasks) {
     if (tasks.empty()) {
-        cout << " task  list seems to be empty.\n";
+        cout << "task list seems to be empty.\n";
         return;
     }
 
@@ -54,23 +54,23 @@ void showAllTasks(const vector<Task>& tasks) {
 
 void deleteTask(vector<Task>& tasks) {
     if (tasks.empty()) {
-        cout << " the list is empty so nothing to delte.\n";
+        cout << "the list is empty so nothing to delete.\n";
         return;
     }
 
     int id;
-    cout << " enter task id to deleteTask.\n ";
+    cout << "enter task id to deleteTask.\n ";
     cin >> id;
 
     for (auto it = tasks.begin(); it != tasks.end(); ++it) {
         if (it->id == id) {
             tasks.erase(it);
-            cout << " task is removed successfully.\n";
+            cout << "task is removed successfully\n";
             return;
         }
     }
 
-    cout << " this task is not there with this task id.\n";
+    cout << "this task is not there with this task id.\n";
 }
 
 void updateTask(vector<Task>& tasks) {
@@ -95,7 +95,7 @@ void updateTask(vector<Task>& tasks) {
             cout << "new status: ";
             getline(cin, t.status);
 
-            cout << "Task updated.\n";
+            cout << "Task updated\n";
             return;
         }
     }
@@ -131,11 +131,11 @@ int main() {
             updateTask(tasks);
         }
         else if (choice == 5) {
-            cout << " Exiting the program.\n";
+            cout << "Exiting the program\n";
             break;
         }
         else {
-            cout << " wrong choice selected.\n";
+            cout << "wrong choice selected\n";
         }
     }
 
