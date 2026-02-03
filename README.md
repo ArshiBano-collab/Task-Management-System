@@ -1,4 +1,4 @@
-# Task Management Backend (C++)
+# Task Management System (C++)
 
 ## About the Project
 This is a console-based Task Management Backend written in C++.
