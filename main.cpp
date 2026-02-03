@@ -101,7 +101,7 @@ void updateTask(vector<Task>& tasks) {
     }
 
     cout << "No task found with this ID.\n";
-}
+}.
 
 int main() {
     vector<Task> tasks;
