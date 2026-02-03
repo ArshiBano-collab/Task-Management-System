@@ -117,4 +117,4 @@ Input:
 5
 
 Expected:
-Exiting the program
+Exiting the program/
